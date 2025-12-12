@@ -26,9 +26,11 @@ class MainActivity : AppCompatActivity() {
         myWebView1.setBackgroundColor(Color.DKGRAY)
         myWebView2.setBackgroundColor(Color.DKGRAY)
         myWebView3.setBackgroundColor(Color.DKGRAY)
-        myWebView1.loadUrl("https://www.donationalerts.com/widget/alerts?group_id=1&token=6eIJTmLGyjwVwGsIYSjn")
-        myWebView2.loadUrl("https://www.donationalerts.com/widget/instream-stats?id=286744&token=6eIJTmLGyjwVwGsIYSjn")
-        myWebView3.loadUrl("http://192.168.31.128:8383/themes/deepblue/template.html?sm=false&aic=true")
-        //myWebView.loadUrl("https://denismajor.ru")
+        //myWebView1.loadUrl("https://www.donationalerts.com/widget/alerts?group_id=1&token=6eIJTmLGyjwVwGsIYSjn")
+        myWebView1.loadUrl(R.string.widget1_url.toString())
+        //myWebView2.loadUrl("https://www.donationalerts.com/widget/instream-stats?id=286744&token=6eIJTmLGyjwVwGsIYSjn")
+        myWebView2.loadUrl(R.string.widget2_url.toString())
+        //myWebView3.loadUrl("http://192.168.31.128:8383/themes/deepblue/template.html?sm=false&aic=true")
+        myWebView3.loadUrl(R.string.chat_widget_url.toString())
     }
 }

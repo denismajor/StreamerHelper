@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">StreamViewer</string>
+    <string name="widget1_url">https://www.donationalerts.com/widget/alerts?group_id=1&amp;token=6eIJTmLGyjwVwGsIYSjn</string>
+    <string name="widget2_url">https://www.donationalerts.com/widget/instream-stats?id=286744&amp;token=6eIJTmLGyjwVwGsIYSjn</string>
+    <string name="chat_widget_url"></string>
 </resources>
